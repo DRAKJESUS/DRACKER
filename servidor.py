@@ -1,8 +1,8 @@
 import socket
-import pyautogui
+import pyautoguo
 import io
 import tkinter as tk
-from tkinter import messagebox
+
 
 def start_screen_monitoring_server(port):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
